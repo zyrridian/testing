@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 const dotenv = require('dotenv');
 const fs = require('fs')
 const path = require('path')
-dotenv.config();
+dotenv.config({ path: '../.env' });
 
 const app = express();
 const port = 3000;

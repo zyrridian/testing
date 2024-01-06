@@ -10,6 +10,21 @@ dotenv.config();
     // executablePath: '/path/to/chrome', // Provide the path to your Chrome/Chromium executable
   });
 
+  const loginMethod = ""
+
+
+  if (loginMethod) {
+    
+  }
+
+
+
+
+
+
+
+
+
   const page = await browser.newPage();
   await page.goto('https://www.tiktok.com/login');
     await page.waitForSelector('.tiktok-7u35li-DivBoxContainer')
